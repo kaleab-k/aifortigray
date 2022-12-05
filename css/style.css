@@ -1645,6 +1645,7 @@ hr {
     font-weight: 600;
     padding: 20px 0;
     color: #fefefe;
+    text-shadow: 1px 1px 1px #000;
     opacity: 1;
     text-align: center;
     -webkit-transition: all 300ms ease;
@@ -14142,4 +14143,8 @@ Accordian Box
 
 .box-layout .coming-soon {
     position: relative;
+}
+
+.txt-shadow {
+    text-shadow: 1px 1px 1px #866969, 3px 3px 5px #14120e;
 }

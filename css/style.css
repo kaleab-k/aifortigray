@@ -396,8 +396,8 @@ li {
 }
 
 .social-icon-slider li a:hover {
-    background-color: #ffae0052;
-    color: #ffffff;
+    /* background-color: #ffae0052; */
+    color: #ffff4a;
 }
 
 
@@ -662,6 +662,7 @@ Theme Btn
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    border-radius: 50px;
 }
 
 .theme-btn .btn-title {
@@ -3276,7 +3277,6 @@ hr {
     -ms-flex-pack: justify;
     justify-content: space-between;
     background: #081245;
-    border-radius: 50px;
     padding-left: 20px;
     width: 100%;
 }
@@ -3463,7 +3463,7 @@ Page Title
 .sec-title .sub-title {
     display: block;
     font-size: 16px;
-    color: #fe00c5;
+    color: #001376;
     font-weight: 700;
     font-family: 'Exo', sans-serif;
     margin-bottom: 15px;
@@ -3526,8 +3526,8 @@ Page Title
     font-size: 16px;
     line-height: 24px;
     padding: 16px 40px;
-    border-radius: 50px;
     border: 1px dashed #dddddd;
+    border-radius: 50px;
 }
 
 .sec-bottom-text .text a {
@@ -4424,7 +4424,7 @@ a.ui-button:active,
     right: 0;
     bottom: 0;
     border-radius: 50%;
-    border: 30px solid #fd00c5;
+    border: 30px solid #ea1d1a;
     overflow: hidden;
 }
 
@@ -4959,7 +4959,7 @@ a.ui-button:active,
     position: relative;
     font-size: 58px;
     line-height: 1em;
-    color: #fe00c5;
+    color: #001376;
 }
 
 .feature-block-four h4 {
@@ -5039,7 +5039,7 @@ a.ui-button:active,
     position: relative;
     font-size: 62px;
     line-height: 1em;
-    color: #fe00c5;
+    color: #001376;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -5964,7 +5964,7 @@ a.ui-button:active,
     height: 0;
     width: 100%;
     content: "";
-    background: #001373;
+    background: #ffba00;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -5977,11 +5977,11 @@ a.ui-button:active,
 .speaker-block-two h4 {
     display: block;
     font-size: 24px;
-    color: #ffffff;
+    color: #000;
 }
 
 .speaker-block-two h4 a {
-    color: #ffffff;
+    color: #000;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -5990,7 +5990,7 @@ a.ui-button:active,
 .speaker-block-two .designation {
     position: relative;
     font-size: 14px;
-    color: #ffffff;
+    color: #000;
 }
 
 
@@ -6559,7 +6559,7 @@ a.ui-button:active,
     display: block;
     font-size: 24px;
     line-height: 1em;
-    color: #fe00c5;
+    color: #081245;
 }
 
 .schedule-timeline {
@@ -6968,7 +6968,7 @@ a.ui-button:active,
     padding-top: 5px;
     font-size: 16px;
     line-height: 1.2em;
-    color: #ff4200;
+    color: #141211;
     font-weight: 700;
 }
 
@@ -7019,14 +7019,14 @@ a.ui-button:active,
 
 .schedule-block-two .speaker-info .icon {
     font-size: 27px;
-    color: #ffba00;
+    color: #918d83;
     line-height: 1em;
     margin-bottom: 10px;
 }
 
 .schedule-block-two .speaker-info .name {
     font-size: 20px;
-    color: #ff4200;
+    color: #49403d;
     font-weight: 700;
     line-height: 1em;
 }
@@ -7040,6 +7040,7 @@ a.ui-button:active,
     margin-left: auto;
     min-width: 100px;
     white-space: nowrap;
+
 }
 
 

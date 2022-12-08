@@ -4371,6 +4371,7 @@ a.ui-button:active,
 .about-section {
     position: relative;
     padding: 90px 0 40px;
+    background-color: #f4f7ff;
 }
 
 .about-section .content-column {
@@ -11060,16 +11061,16 @@ Accordian Box
     content: "";
 }
 
-.main-footer.style-two .footer-content {
+.main-footer .footer-content {
     padding: 70px 0;
 }
 
-.main-footer.style-two .footer-bottom {
+.main-footer .footer-bottom {
     background: #081245;
     padding: 15px 0;
 }
 
-.main-footer.style-two .copyright-text {
+.main-footer .footer-bottom .copyright-text {
     position: relative;
     display: block;
     text-align: center;
@@ -11078,7 +11079,7 @@ Accordian Box
     color: #ffc400;
 }
 
-.main-footer.style-two .copyright-text a {
+.main-footer .footer-bottom .copyright-text a {
     color: #ffc400;
     font-weight: 400;
 }
@@ -14148,4 +14149,19 @@ Accordian Box
 
 .txt-shadow {
     text-shadow: 1px 1px 1px #866969, 3px 3px 5px #14120e;
+}
+
+.partner-logos {
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    float: left;
+    margin-right: 50px;
+}
+
+.partner-logos a img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 10px;
 }

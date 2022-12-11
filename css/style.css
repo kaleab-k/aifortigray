@@ -485,7 +485,7 @@ li {
 }
 
 .social-icon-two li a:hover {
-    background-color: #ffae00;
+    background-color: #ffab00;
     color: #ffffff;
 }
 
@@ -3621,7 +3621,7 @@ Page Title
 
 .main-slider .event-info li i {
     margin-right: 10px;
-    color: #ffbf00;
+    color: #ffba00;
 }
 
 .main-slider .btn-box {
@@ -10725,6 +10725,7 @@ Accordian Box
 .main-footer .footer-logo img {
     display: block;
     max-width: 100%;
+    width: 200px;
 }
 
 .main-footer .about-widget p {
@@ -11061,9 +11062,9 @@ Accordian Box
     content: "";
 }
 
-.main-footer .footer-content {
+/* .main-footer .footer-content {
     padding: 70px 0;
-}
+} */
 
 .main-footer .footer-bottom {
     background: #081245;
@@ -11080,7 +11081,7 @@ Accordian Box
 }
 
 .main-footer .footer-bottom .copyright-text a {
-    color: #ffc400;
+    color: #ffba00;
     font-weight: 400;
 }
 

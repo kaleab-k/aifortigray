@@ -14168,3 +14168,40 @@ Accordian Box
     padding: 5px;
     margin: 10px;
 }
+
+.tp-caption h2 {
+    font-family: 'Built Titling';
+    font-size: 8.5rem;
+}
+
+.tp-caption h3 {
+    color: white;
+    font-family: 'Built Titling';
+    font-size: 2.59rem;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin: auto 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 3.5rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .image-column {
+        margin-top: 170px;
+    }
+}

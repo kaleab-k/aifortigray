@@ -180,7 +180,11 @@
 	}
 
 	.main-slider h2 {
-		font-size: 64px;
+		font-size: 6rem;
+	}
+
+	.main-slider h3 {
+		font-size: 2rem;
 	}
 
 	.pricing-block h3 {
@@ -528,7 +532,7 @@
 
 @media only screen and (max-width: 767px) {
 	.main-slider h2 {
-		font-size: 44px;
+		font-size: 5rem;
 	}
 
 	.main-slider .btn-box .theme-btn {
@@ -877,7 +881,7 @@
 	}
 
 	.main-slider h2 {
-		font-size: 4.5rem;
+		font-size: 3.5rem;
 	}
 
 	.main-slider h3 {

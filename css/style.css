@@ -14194,14 +14194,8 @@ Accordian Box
     height: 100%;
 }
 
-@media (max-width: 480px) {
-    html {
-        font-size: 3.5rem !important;
-    }
-}
-
 @media (min-width: 992px) {
-    .image-column {
+    .video-column {
         margin-top: 170px;
     }
 }

@@ -16,12 +16,6 @@ tpj(document).ready(function () {
             gridwidth: [1200, 1040, 800, 480],
             gridheight: [1000, 800, 800, 800],
             lazyType: "none",
-            parallax: {
-                type: "mouse",
-                origo: "enterpoint",
-                speed: 1000,
-                levels: [1, 2, 3, 4, 5]
-            },
             shadow: 0,
             spinner: "off",
             stopLoop: "off",

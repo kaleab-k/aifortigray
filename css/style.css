@@ -5846,6 +5846,10 @@ a.ui-button:active,
     transition: all 300ms ease;
 }
 
+.speaker-block-two .image-box-blue:before {
+    background-image: url(../images/icons/curved-border-blue.png);
+}
+
 .speaker-block-two .image img {
     width: 100%;
     -webkit-transition: all 400ms ease;

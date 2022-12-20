@@ -10,42 +10,7 @@ tpj(document).ready(function () {
             jsFileLocation: "plugins/revolution/js/",
             sliderLayout: "auto",
             dottedOverlay: "on",
-            delay: 10000,
-            navigation: {
-                keyboardNavigation: "off",
-                keyboard_direction: "horizontal",
-                mouseScrollNavigation: "off",
-                mouseScrollReverse: "default",
-                onHoverStop: "off",
-                touch: {
-                    touchenabled: "on",
-                    touchOnDesktop: "off",
-                    swipe_threshold: 75,
-                    swipe_min_touches: 1,
-                    swipe_direction: "horizontal",
-                    drag_block_vertical: false
-                },
-                arrows: {
-                    style: "metris",
-                    enable: false,
-                    hide_onmobile: true,
-                    hide_under: 600,
-                    hide_onleave: true,
-                    tmp: '',
-                    left: {
-                        h_align: "left",
-                        v_align: "center",
-                        h_offset: 15,
-                        v_offset: 0
-                    },
-                    right: {
-                        h_align: "right",
-                        v_align: "center",
-                        h_offset: 15,
-                        v_offset: 0
-                    }
-                }
-            },
+            delay: 5000,
             responsiveLevels: [1200, 1040, 802, 480],
             visibilityLevels: [1200, 1040, 802, 480],
             gridwidth: [1200, 1040, 800, 480],

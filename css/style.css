@@ -683,7 +683,8 @@ Theme Btn
 
 /*Btn Style One*/
 
-.btn-style-one {
+.btn-style-one,
+.btn-style-three {
     position: relative;
     font-size: 16px;
     line-height: 30px;
@@ -695,18 +696,29 @@ Theme Btn
     min-width: 180px;
 }
 
+.btn-style-three {
+    color: #000;
+    background-color: #ffab00 !important;
+}
+
 .btn-style-one:hover {
     color: #ffffff;
 }
 
-.btn-style-one i {
+.btn-style-one i,
+.btn-style-three i {
     margin-right: 10px;
     font-size: 20px;
     line-height: 1em;
     color: #ffae00;
 }
 
-.btn-style-one:before {
+.btn-style-three i {
+    color: #001376;
+}
+
+.btn-style-one:before,
+.btn-style-three::before {
     position: absolute;
     top: -50%;
     left: -50%;
@@ -722,7 +734,8 @@ Theme Btn
     transition: all 300ms ease;
 }
 
-.btn-style-one:hover:before {
+.btn-style-one:hover:before,
+.btn-style-three:hover:before {
     top: 150%;
 }
 
@@ -3913,7 +3926,7 @@ Page Title
 
 .about-stats-box {
     position: relative;
-    background: #e1e7f6a6;
+    background: #e1e7f6f0;
     padding: 30px 45px 10px;
     -webkit-box-shadow: 0 0 51px rgba(0, 0, 0, .24);
     box-shadow: 0 0 51px rgba(0, 0, 0, .24);
@@ -8724,7 +8737,7 @@ Accordian Box
     background: linear-gradient(to right, rgba(255, 255, 255, 0.13) 0%, rgba(255, 255, 255, 0.13) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0.0) 100%);
 }
 
-.news-block .inner-box:hover .image-box .image a:after {
+/* .news-block .inner-box:hover .image-box .image a:after {
     opacity: 1;
     top: -20%;
     left: -30%;
@@ -8737,7 +8750,7 @@ Accordian Box
     -webkit-transition-timing-function: linear;
     -o-transition-timing-function: linear;
     transition-timing-function: linear;
-}
+} */
 
 .news-block .image img {
     display: block;

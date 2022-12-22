@@ -7020,7 +7020,7 @@ a.ui-button:active,
     line-height: 1.2em;
     color: #081245;
     font-weight: 700;
-    max-width: 380px;
+    min-width: 380px;
     padding-right: 20px;
 }
 

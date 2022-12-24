@@ -14245,3 +14245,7 @@ Accordian Box
         margin-top: 170px;
     }
 }
+
+.hidden {
+    display: none;
+}

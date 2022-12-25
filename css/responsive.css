@@ -286,7 +286,7 @@
 
 	.schedule-section-two .sec-title-outer {
 		flex-direction: column;
-		align-items: center;
+		align-items: inherit;
 	}
 
 	.call-to-action-two {
@@ -1453,6 +1453,26 @@
 		top: 0;
 		right: 0;
 	}
+
+	.feature-block {
+		width: 50%;
+	}
+
+	.feature-block h3 {
+		font-size: 2.8rem !important;
+	}
+
+	.feature-block h4 {
+		font-size: 1.2rem !important;
+	}
+
+	.about-stats-box .feature-block .icon-box:before {
+		right: -6px;
+		left: auto;
+		top: 2px;
+		height: 40px;
+		width: 40px;
+	}
 }
 
 /***
@@ -1752,6 +1772,26 @@
 
 	.rtl .comments-area .comment-box.reply-comment {
 		margin-right: 0;
+	}
+
+	.feature-block {
+		width: 50%;
+	}
+
+	.feature-block h3 {
+		font-size: 3.2rem !important;
+	}
+
+	.feature-block h4 {
+		font-size: 1.2rem !important;
+	}
+
+	.about-stats-box .feature-block .icon-box:before {
+		right: -6px;
+		left: auto;
+		top: 2px;
+		height: 40px;
+		width: 40px;
 	}
 }
 
